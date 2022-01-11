@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #input{
+            width: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <Nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </Nav>
+            
+        </div>
+    <fieldset id="input">
+        <legend>Fill the form carefully</legend>
+        <form action="#">
+            <p>Name <input type="text" placeholder="name"></p>
+            <p>father <input type="text" placeholder="father name"></p>
+            <p>mother <input type="text" placeholder="mother name"></p>
+            <p>age <input type="text" placeholder="your age"></p>
+        </form><br>
+        <p>please choose any item :</p>
+        <input type="radio" name="Item" id="book" value="book">
+        <label for="book">Book</label><br>
+        <input type="radio" name="Item" id="note-book" value="note-book">
+        <label for="note-book">note-book</label><br>
+        <input type="radio" name="Item" id="pen" value="pen">
+        <label for="pen">pen</label><br>
+        <input type="radio" name="Item" id="diary" value="diary">
+        <label for="diary">diary</label><br><br>
+        
+        <input type="checkbox" name="modem" id="modem" value="modem">
+        <label for="modem">modem</label><br>
+        <input type="checkbox" name="scaner" id="scaner" value="scaner">
+        <label for="scaner">scaner</label><br>
+        <input type="checkbox" name="mouse" id="mouse" value="mouse">
+        <label for="mouse">mouse</label><br>
+        <input type="checkbox" name="keyboard" id="keyboard" value="keyboard">
+        <label for="keyboard">keyboard</label><br>
+        <input type="checkbox" name="router" id="router" value="router">
+        <label for="router">router</label><br><br>
+         
+        
+        <p>email : <input type="email" name="email" id="email" value="email"></p>
+        <p>password : <input type="password"></p>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+       
+        
+        
+    </fieldset>
+    
+</body>
+</html>

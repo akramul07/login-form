@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a5bf80693.js" crossorigin="anonymous"></script>
+    <title>login form</title>
+    <style>
+        .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        }
+       .form, input{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+       }
+       .container input, button{
+           font-size: 1.3em;
+           margin: 5px;
+          
+        
+       }
+       button{
+           background-color: gold;
+           color: rgb(15, 15, 15);
+           font-weight: 700;
+       }
+    
+       .nav a{
+           text-decoration: none;
+           /* color: rgb(105, 101, 101); */
+           margin-right: 10px;
+           padding: 0 10px;
+           border-radius: 5px;
+       }
+       button:hover{
+           color: white;
+       }
+       .header .nav {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.3em;
+       }
+    </style>
+</head>
+<body>
+        <header class="header">
+            <nav class="nav">
+                <span>
+                    <a href="#">Home</a>
+                    <a href="#">Our services</a>
+                    <a href="#">Our product</a>
+                    <a href="#">Contact Us</a>
+                </span>
+               
+                <span>
+                    <a href="#"><i class="fas fa-user-circle"></i><a>
+                    <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+                </span>
+              
+                
+            </nav>
+        </header>  
+        </section>
+     
+    <section class="container">
+      
+            <form action="" class="form">
+            <h2>Login</h2>
+            <input type="email" id="email" name="email" placeholder="write your email" id="email" name="email"  required>
+            <input type="password" placeholder="input your password" required>
+            <button type="submit">Login</button>
+            </form>
+
+    
+    </section>
+</body>
+</html>

@@ -1,0 +1,63 @@
+nav > ul{
+    list-style: none;
+    display: flex;
+}
+
+ul a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10Px;
+    border: 1px solid;
+    background-color: rgb(178, 236, 19);
+    font-size: 20px;
+}
+li a:hover{
+    background-color: whitesmoke;
+    color: red;
+    display: block;
+}
+.pages > ul{
+    list-style: none; 
+    display: flex;
+}
+.pages > li a{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+.pages > li > a:hover{
+    color: rgb(247, 6, 6);
+    background-color: rgb(235, 241, 235);
+}
+.contact-page{
+    display: flex;
+    justify-content: center;
+   
+}
+.contact-page div{
+    height: 500px;
+    width: 45%;
+    border: 1px solid;
+    margin: 10px;
+   padding-left: 10%;
+   text-align: justify;
+}
+.contact-page  img{
+    height: 400px;
+    padding-top: 50px;
+}
+#contact{
+    color: blue;
+    background-color: blanchedalmond;
+
+}
+#img{
+    background-color: darkgrey;
+
+}
+.dropdown > li > ul > a{
+    list-style: none;
+    display: block;
+    
+}

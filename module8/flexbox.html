@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>flexbox</title>
+    <style>
+      
+        .flex-container{
+            border: 2px solid;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .flex-container div{
+            font-size: 2em;
+            border: 2px solid salmon;
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            background-color: chartreuse;
+        
+        }
+        .flex-container2{
+            border: 2px solid;
+            height: 400px;
+            display: flex; 
+        }
+        .flex-container2 div{
+            font-size: 2em;
+            border: 2px solid salmon;
+            width: 200px;
+            text-align: center;
+           
+            
+        }
+        #box5{
+            flex-grow: 1;
+            background-color: rgba(255, 217, 0, 0.644);
+        }
+        #box4{
+            background-color: rgba(89, 0, 255, 0.425);
+        }
+        #box6{
+            flex-grow: 1;
+            background-color: chartreuse;
+    
+        }
+        #box7{
+            background-color: rgba(68, 0, 255, 0.534);
+        }
+    </style>
+</head>
+<body>
+    <section id="flex">
+        <h1>Flexbox</h1>
+        <div class="flex-container">
+            <div id="box1">box1</div>
+            <div id="box2">box2</div>
+            <div>box3</div>
+        </div> 
+    </section>
+<br>
+    <div class="flex-container2">
+        <div id="box4">box4</div>
+        <div id="box5">box5</div>
+        
+    </div> 
+    
+    <br>
+    <div class="flex-container2">
+        <div id="box6">box6</div>
+        <div id="box7">box7</div>
+        
+    </div> 
+</body>
+</html>
